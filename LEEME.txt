@@ -1,0 +1,26 @@
+COMPUGUED — Bio Link responsive
+================================
+
+ARCHIVOS
+- index.html: estructura, textos, enlaces e iconos.
+- styles.css: diseño visual y adaptación a celulares, tablets, laptops y pantallas grandes.
+- script.js: actualiza el año automáticamente.
+
+CÓMO PROBARLO
+1. Descomprime el ZIP.
+2. Abre index.html en Chrome, Edge o Firefox.
+3. Para publicarlo, sube los tres archivos a tu hosting (por ejemplo, en la carpeta public_html).
+
+QUÉ DEBES PERSONALIZAR
+1. WhatsApp: en index.html busca https://wa.me/51999999999 y reemplaza 51999999999 por tu número con código de país, sin + ni espacios.
+2. Enlaces de categorías: reemplaza cada https://example.com/... por tu catálogo, página, formulario o conversación correspondiente.
+3. Redes sociales: reemplaza las direcciones de Facebook, Instagram, TikTok y YouTube por tus perfiles.
+4. Ubicación y textos: cambia “Chiclayo · Perú”, “Venta solo a pedido” y el eslogan según tu marca.
+5. Logo: el logo actual es una marca ficticia construida con texto y CSS. Puedes reemplazar el bloque .brand-mark por una imagen, por ejemplo:
+   <img class="brand-logo" src="assets/logo.png" alt="COMPUGUED">
+   y añadir estilos para .brand-logo en styles.css.
+
+NOTAS
+- Las URLs example.com son marcadores ficticios; no llevan a catálogos reales.
+- La tipografía usa Google Fonts y requiere conexión a internet; hay fuentes alternativas para cuando no estén disponibles.
+- El diseño no necesita frameworks ni instalación de dependencias.
