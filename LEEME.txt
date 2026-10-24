@@ -1,26 +1,23 @@
-COMPUGUED — Bio Link responsive
-================================
+COMPUGUED BIO LINK — PLANTILLA RESPONSIVE
 
-ARCHIVOS
-- index.html: estructura, textos, enlaces e iconos.
-- styles.css: diseño visual y adaptación a celulares, tablets, laptops y pantallas grandes.
-- script.js: actualiza el año automáticamente.
+Archivos:
+- index.html
+- css/styles.css
+- js/main.js
 
-CÓMO PROBARLO
-1. Descomprime el ZIP.
-2. Abre index.html en Chrome, Edge o Firefox.
-3. Para publicarlo, sube los tres archivos a tu hosting (por ejemplo, en la carpeta public_html).
+Cómo probar:
+1. Extrae el ZIP completo.
+2. Abre index.html en tu navegador.
+3. Para publicar, sube toda la carpeta manteniendo la estructura.
 
-QUÉ DEBES PERSONALIZAR
-1. WhatsApp: en index.html busca https://wa.me/51999999999 y reemplaza 51999999999 por tu número con código de país, sin + ni espacios.
-2. Enlaces de categorías: reemplaza cada https://example.com/... por tu catálogo, página, formulario o conversación correspondiente.
-3. Redes sociales: reemplaza las direcciones de Facebook, Instagram, TikTok y YouTube por tus perfiles.
-4. Ubicación y textos: cambia “Chiclayo · Perú”, “Venta solo a pedido” y el eslogan según tu marca.
-5. Logo: el logo actual es una marca ficticia construida con texto y CSS. Puedes reemplazar el bloque .brand-mark por una imagen, por ejemplo:
-   <img class="brand-logo" src="assets/logo.png" alt="COMPUGUED">
-   y añadir estilos para .brand-logo en styles.css.
+Personalización:
+- En index.html cambia el nombre, eslogan, textos, ubicación y los href de los botones.
+- Cambia el teléfono de ejemplo 51999999999 por el WhatsApp real con código de país, sin + ni espacios.
+- Reemplaza los href="#" de Facebook, TikTok, Instagram y YouTube.
+- En css/styles.css reemplaza la URL de background-image por la imagen de portada que quieras usar.
+- Los textos, marca CG del círculo e imágenes son demostrativos. El nombre comercial visible se ha puesto como COMPUGUED.
 
-NOTAS
-- Las URLs example.com son marcadores ficticios; no llevan a catálogos reales.
-- La tipografía usa Google Fonts y requiere conexión a internet; hay fuentes alternativas para cuando no estén disponibles.
-- El diseño no necesita frameworks ni instalación de dependencias.
+Notas:
+- Requiere conexión a Internet para descargar la foto de Unsplash y la fuente de Google Fonts.
+- El diseño se adapta a celulares, tablets y pantallas de escritorio.
+- Antes de publicarlo, prueba todos los enlaces y sustituye los datos ficticios.
