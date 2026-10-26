@@ -1,81 +1,176 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#071421">
-  <meta name="description" content="Bio Link de ejemplo para una tienda de tecnología. Reemplaza los datos ficticios por los de tu negocio.">
-  <title>COMPUGUED | Tecnología a pedido</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMPUGUED | Tecnología</title>
+  <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+    <!-- Linking Icono de web -->
+    <link rel="icon" href="img/iconos/logoico.ico">
+    <!-- Linking General CSS -->
+
+  <!-- Etiquetas Open Graph (ogp.me) -->
+  <meta property="og:title" content="TECNOLOGÍA">
+  <meta property="og:description" content="Asesoría y Venta de Laptops, Computadoras, Impresoras, Periféricos y Accesorios Tecnológicos de Calidad. También contamos con Servicio Técnico">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://compugued.vercel.app/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/compuguedtienda-cyber/rep_compugued/refs/heads/main/img/logo/logolink.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card (compatible con X/Twitter) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TECNOLOGÍA">
+  <meta name="twitter:description" content="Asesoría y Venta de Laptops, Computadoras, Impresoras, Periféricos y Accesorios Tecnológicos de Calidad. También contamos con Servicio Técnico">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/compuguedtienda-cyber/rep_compugued/refs/heads/main/img/logo/logolink.png">
+  <!-- FIN DE ETIQUETAS LINK -->
 </head>
+
+
 <body>
-  <main class="page-shell">
-    <section class="bio-card" aria-label="Bio Link de COMPUGUED">
-      <div class="hero-photo" role="img" aria-label="Laptop y equipo tecnológico de ejemplo"></div>
-      <div class="scrim"></div>
-
-      <header class="brand">
-        <div class="brand-mark" aria-hidden="true">CG</div>
-        <div>
-          <!-- REEMPLAZA el nombre y el eslogan por tus datos finales -->
-          <h1>COMPUGUED</h1>
-          <p class="tagline">Tecnología de calidad, siempre contigo</p>
+<!--ESTILO CELULAR -->  
+<div class="phone">
+  <div class="contorno">
+<!--WIDGET CLIMA -->  
+  <div class="top-bar">
+    <div class="weather-wrap">
+      <div class="weather" id="weather">
+        <i class="fa-solid fa-temperature-empty"></i>
+        <div class="info">
+          <span class="temp">--°C</span>
         </div>
-      </header>
+      </div>
+      <div class="city">&nbsp;&nbsp;Chiclayo</div>
+    <!-- <div class="weather-text" id="weatherText">---</div> TEXTO D T N-->
+    </div>
+  </div>
+<!--FIN WIDGET CLIMA -->  
 
-      <nav class="categories" aria-label="Categorías">
-        <a href="#productos"><span class="category-icon">▱</span><span>Laptops</span></a>
-        <a href="#productos"><span class="category-icon">▣</span><span>PCs</span></a>
-        <a href="#productos"><span class="category-icon">▤</span><span>Impresoras</span></a>
-        <a href="#productos"><span class="category-icon">♧</span><span>Accesorios</span></a>
-      </nav>
+<!-- LOGO -->
+<div class="header">
+    <img src="img/logo/logofondoazul.png" class="avatar">
+    <h1 class="titulo-principal">COMPUGUED</h1>
+    <!-- <p>Computadoras, Laptops, Impresoras, Accesorios Tecnológicos, Servicio Técnico</p> -->
+</div>
 
-      <section class="intro" id="productos">
-        <p>Los mejores equipos<br>y marcas, a pedido</p>
-        <small>Calidad · Asesoría personalizada · Atención online</small>
-      </section>
 
-      <section class="actions" aria-label="Enlaces principales">
-        <!-- Sustituye los enlaces de ejemplo por tus URLs reales -->
-        <a class="action action-whatsapp" href="https://wa.me/51999999999?text=Hola%20COMPUGUED%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">
-          <span class="action-icon" aria-hidden="true">◉</span>
-          <span><strong>Catálogo y precios por WhatsApp</strong><small>Consulta disponibilidad y cotiza</small></span>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
-        <a class="action action-blue" href="#productos">
-          <span class="action-icon" aria-hidden="true">🛒</span>
-          <span><strong>Ver productos</strong><small>Laptops, PCs, impresoras y más</small></span>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
-        <a class="action action-purple" href="https://wa.me/51999999999?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener">
-          <span class="action-icon" aria-hidden="true">⚒</span>
-          <span><strong>Servicio técnico</strong><small>Soporte y mantenimiento</small></span>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
-        <a class="action action-orange" href="#redes">
-          <span class="action-icon" aria-hidden="true">▧</span>
-          <span><strong>Nuestras redes</strong><small>Síguenos para ver novedades</small></span>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
-      </section>
 
-      <footer class="footer" id="redes">
-        <div class="socials" aria-label="Redes sociales">
-          <!-- Reemplaza # con los enlaces de tus perfiles -->
-          <a class="social facebook" href="#" aria-label="Facebook" title="Facebook">f</a>
-          <a class="social tiktok" href="#" aria-label="TikTok" title="TikTok">♪</a>
-          <a class="social instagram" href="#" aria-label="Instagram" title="Instagram">◎</a>
-          <a class="social youtube" href="#" aria-label="YouTube" title="YouTube">▶</a>
-        </div>
-        <p class="location"><span aria-hidden="true">📍</span> Chiclayo - Perú</p>
-        <p class="order-note">Venta solo a pedido</p>
-      </footer>
-    </section>
-    <p class="page-note">Plantilla demostrativa · Cambia textos, imágenes y enlaces antes de publicar.</p>
-  </main>
-  <script src="js/main.js"></script>
+<div class="container">
+
+  <!-- SLIDER -->
+  <div class="slider">
+    <button class="nav prev">&#10094;</button>
+
+    <div class="slider-window">
+      <div class="slider-track">
+        <img src="img/slider/1.jpg">
+        <img src="img/slider/2.jpg">
+        <img src="img/slider/3.jpg">
+        <img src="img/slider/4.jpg">
+        <img src="img/slider/5.jpg">
+        
+      </div>
+    </div>
+
+    <button class="nav next">&#10095;</button>
+  </div>
+
+</div>
+
+
+<!-- BOTON ANCHO: CATALOGO -->
+<div class="actions2">
+    <a href="catalogo.pdf" class="action2 btn">
+        <img src="img/simbolos/pdf3.png" alt="Catálogo PDF" class="social-icon">
+        <span>Catálogo PDF</span>
+    </a>
+</div>
+
+<!-- CUADRICULA 2x2 -->
+<div class="actions">
+    <a href="https://wa.me/51926845127" class="action">
+        <img src="img/simbolos/whatsapp2.png" alt="WhatsApp" class="social-icon">
+        <span>926845127</span>
+    </a>
+
+    <a href="https://www.facebook.com/compugued.tec" target="_blank" rel="noopener noreferrer" class="action">
+        <img src="img/simbolos/face.png" alt="Facebook" class="social-icon">
+        <span>Facebook</span>
+    </a>
+
+    <a href="https://www.instagram.com/compugued/" target="_blank" rel="noopener noreferrer" class="action">
+        <img src="img/simbolos/inst.png" alt="Instagram" class="social-icon">
+        <span>Instagram</span>
+    </a>
+
+    <a href="#" class="action"
+       onclick="if(navigator.share){navigator.share({title:document.title,url:location.href});return false;}">
+        <img src="img/simbolos/compartir1.png" alt="Compartir" class="social-icon">
+        <span>Compartir</span>
+    </a>
+</div>
+
+
+<footer class="footer">
+  <div class="footer-social">
+    
+    <!-- <a href="https://www.facebook.com/compugued.tec" target="_blank" rel="noopener noreferrer">
+      <img src="img/simbolos/face.png " alt="Facebook" class="social-icon">
+    </a>
+    <a href="https://www.instagram.com/compugued/" target="_blank" rel="noopener noreferrer">
+      <img src="img/simbolos/inst.png" alt="Instagram" class="social-icon">
+    </a> -->
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <img src="img/simbolos/acerca1.png" alt="Twitter" class="social-icon">
+    </a>
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src="img/simbolos/mapa4.png" alt="Facebook" class="social-icon">
+    </a>
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src="img/simbolos/compartir1.png " alt="Facebook" class="social-icon">
+    </a>
+  </div>
+
+  <p> <<<  Tecnología a Pedido  >>> </p>
+  
+</footer>
+
+<!-- <div class="share-buttons2">
+  <button class="icon-btn" onclick="goToFace()">
+    <i class="fa-brands fa-facebook"></i>
+  </button>
+
+  <button class="icon-btn" onclick="goToInst()">
+    <i class="fa-brands fa-instagram"></i>   
+  </button>
+
+    <button class="icon-btn" onclick="goToAbout()">
+    <i class="fa-brands fa-gofore"></i>
+  </button>
+
+  <button class="icon-btn" onclick="goToCuentas()">
+    <i class="fa-solid fa-sack-dollar"></i>
+  </button>
+
+  <button class="icon-btn" onclick="goToMap()">
+    <i class="fa-solid fa-location-dot"></i>
+  </button> 
+</div> -->
+
+</div>
+</div>
+<!--FIN ESTILO CELULAR -->
+
+<!-- ENLACE JS -->
+<script src="js/app.js"></script>
+<!-- FIN ENLACE JS -->
+
 </body>
 </html>
